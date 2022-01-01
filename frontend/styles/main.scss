@@ -1,0 +1,490 @@
+body{
+    background-color: #fff;
+}
+
+.navbar{
+    
+
+
+.nav-item{
+        
+        img{
+            width: 23px;
+            height: 23px;
+        }
+    }
+}
+
+.navbar-brand{
+
+    img{
+        width: 130px;
+        height: 65px;
+    }
+}
+.nav{
+    margin-right: 0px;
+}
+
+
+
+header{
+    padding: 20px 50px 20px ;
+    position: relative;
+.about{
+    h1{
+    margin-top: -11px;
+    color: black;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 52px;
+    }
+
+
+    p{
+    margin-top: 20px !important;
+    color: #686a6e;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    }
+
+    .logo{
+        margin-top: 50px !important;
+        .logo-2{
+          margin-top: 3px;
+            margin-left: 20px;
+        }
+       
+        
+    }
+
+}
+}
+
+.example{
+    img{
+        margin-left: -15px;
+        
+        width: 340px;
+        height: 460px;
+    }
+}
+
+.variant{
+    margin-top: 100px;
+    
+    h5{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: black;
+    }
+
+    h3{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: bolder;
+        font-size: 37.5px;
+        color: #1C51E8;
+    }
+    
+
+}
+
+
+
+
+.section-partners-Content{
+    margin-top: 150px;
+    .partners-title{
+    padding: 20px 50px 20px;
+    }
+    .partners-content{
+        padding: 20px 50px 20px;
+        img{
+            height: 245px;
+            width: 245px;
+            border-radius: 20%;
+        }
+
+        .nav-link{
+            margin-left: -15px;
+        }
+
+    }
+}
+
+.partners-title{
+    h3{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: bold;
+        font-size: 42px;
+    }
+    p{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: lighter;
+        font-size: 20px;
+    }
+}
+
+
+.section-comunity{
+     
+  padding: 50px 50px 50px;
+   margin-top: 50px;
+    background-color: #1C51E8;
+    background-size: cover;
+    min-height: 300px;
+    p{
+        position: relative;
+    }
+   
+    .title-comunity{
+        margin-bottom: 50px;
+        position: relative;
+        font-family: 'Space Grotesk', sans-serif;
+    
+        h3{
+           
+            font-size: 42px;
+            font-weight: bolder;
+            color: #fff;
+        }
+    
+        p{
+            font-size: 21px;
+            font-weight: medium;
+            color: #fff;
+        }
+    }
+    
+    .section-join-discord{
+        margin-left: -16px;
+        a{
+            
+        &:hover{
+            color: #e904a4;
+        }
+        }
+    }
+
+}
+
+
+.card-title{
+        margin-top: 10px;
+        margin-left: -10px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        color: #1C51E8;
+}
+
+.card-body{
+    ul{
+        margin-top: 2px;
+        margin-right: -20px;
+    }
+}
+
+.section-footer{
+    padding: 20px 30px 10px;
+    img{
+        margin-top: -6px;
+        height: 62px;
+        width: 120px;
+    }
+
+    h6{
+        margin-left: 5px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 14px;
+        color: #1C51E8;
+    }
+    a{
+        margin-left: 5px;
+        font-family: 'Space Grotesk', sans-serif;
+        color: #000;
+        
+        &:hover{
+            color: #1C51E8;
+        }
+    }
+
+    p{
+        margin-bottom: -40px;
+        margin-left: 5px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 14px;
+        color: #1C51E8;
+    }
+}
+
+ 
+  
+  .slider {
+      width: 100%;
+      margin: 100px auto;
+
+  }
+
+  .slick-slide {
+    margin: 0px -50px;
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: none;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
+
+
+  
+.item-number h3{
+    position: relative;
+    
+}
+.item-number-active h3{
+    position: relative;
+    font-size: 33.33px;
+    font-weight: lighter;
+}
+ 
+
+  .item-number h3:before {
+      margin-left: -26px;
+    content: "";
+    display: block #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+    border: 3px solid grey;
+    position: absolute;
+    top: 14px;
+    left: -32px
+  }
+  
+  .item-number-active h3:after {
+      margin-left: -26px;
+    content: "";
+    display: block #000;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #1C51E8;
+    border: 3px solid #1C51E8;
+    position: absolute;
+    top: 14px;
+    left: -32px
+  }
+
+  *::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  .roadmap-title{
+      margin-bottom: 50px;
+      margin-left: 200px;
+
+      h4{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: bold;
+        color:#1C51E8;
+        font-size: 42.77px;
+      }
+
+      h5{
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: normal;
+        font-size: 30px;
+        color: #000;
+      }
+  }
+
+  .roadmaps{
+      
+    
+      .number{
+        margin-right: 20px;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 33.33px;
+        font-weight: lighter;
+        color: #1C51E8;
+      }
+      .title{
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 33.33px;
+        font-weight: bold;
+        color: #1C51E8;
+      }
+    
+    p{
+      margin-top: 20px;
+        font-size: 18px;
+        font-weight: normal;
+        text-align: justify;
+        color: #1C51E8;       
+    }
+  }
+
+  .roadmaps ul li{
+    list-style-type: none;
+    position: relative;
+    width: 1px;
+    margin: 0px auto;
+    margin-left: 200px;
+    padding-top: 100px;
+    background: #dbdbdb;
+  }
+
+  .roadmaps ul li::after{
+      content: '';
+      position: absolute;
+      left: 50%;
+      bottom: 100px;
+      top: 120px;
+      transform: translateX(-50%);
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: inherit;
+      z-index: 1;
+  }
+
+  .roadmaps ul li div{
+      position: relative;
+      bottom: 0;
+      width: 700px;
+      border-radius: 5px;
+      padding: 9px;
+      background: transparent;
+  }
+
+  .roadmaps ul li div::before{
+      content: '';
+      position: absolute;
+      bottom: 7px;
+      width: 0;
+      height: 0;
+  }
+
+  .roadmaps ul li:nth-child(odd) div{
+      left: 45px;
+  }
+
+  .roadmaps ul li:nth-child(odd) div::before{
+      left: -15px;
+      top: 19px;
+     
+  }
+
+  .roadmaps ul li:nth-child(even) div {
+    left: 45px;
+  }
+   
+  .roadmaps ul li:nth-child(even) div::before {
+    left: -15px;
+    top: 19px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #1C51E8 transparent transparent;
+  }
+
+  .roadmaps ul li::after {
+    background: #686a6e;
+    transition: background .5s ease-in-out;
+  }
+   
+  .roadmaps ul li.in-view::after {
+    background: #1C51E8;
+  }
+   
+  .roadmaps ul li div {
+    visibility: hidden;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+  }
+   
+  .roadmaps ul li:nth-child(odd) div {
+    transform: translate3d(200px,0,0);
+  }
+   
+  .roadmaps ul li:nth-child(even) div {
+    transform: translate3d(-200px,0,0);
+  }
+   
+  .roadmaps ul li.in-view div {
+    transform: none;
+    visibility: visible;
+    opacity: 1;
+  }
+  @media screen and (max-width: 600px) {
+    .about{
+      margin-left: -20px;
+    }
+
+    .example{
+      margin-left: -30px;
+      margin-bottom: 200px;
+      margin-top: 100px;
+      img{
+        width: 180px;
+        height: 250px;
+      }
+    }
+
+   
+    .roadmap-title{
+      margin-left: 20px;
+    }
+
+    .roadmaps ul li {
+      margin-left: 0px;
+    }
+     
+    .roadmaps ul li div {
+      width: calc(100vw - 145px);
+    }
+     
+    .roadmaps ul li:nth-child(even) div {
+      left: 45px;
+    }
+     
+    .roadmaps ul li:nth-child(even) div::before {
+      left: -15px;
+      border-width: 8px 16px 8px 0;
+      border-color: transparent #1C51E8 transparent transparent;
+    }
+  }
+
+  #content{
+    position: relative;
+  }
+  #content img{
+      position: absolute;
+      z-index: 1;
+    }
+  #content img.active{
+      z-index: 3;
+    }
